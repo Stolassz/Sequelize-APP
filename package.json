@@ -8,8 +8,9 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "cy:run": "cypress run",
-    "coverage:report": "nyc report --reporter=text-summary --reporter=html"
+    "test": "cypress run",
+    "coverage:report": "nyc report --reporter=text-summary --reporter=html",
+    "cypress": "cypress open"
   },
   "dependencies": {
     "@cypress/code-coverage": "^4.1.3",
